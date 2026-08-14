@@ -1,0 +1,6 @@
+{
+  "name": "Birthday Storybook Experience",
+  "description": "An interactive, beautifully crafted birthday storybook experience with custom themes, interactive memory galleries, birthday legends, secret unlock gate, love letters, and playful celebratory moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

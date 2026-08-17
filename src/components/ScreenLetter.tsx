@@ -20,15 +20,15 @@ interface ScreenLetterProps {
 
 export const ScreenLetter: React.FC<ScreenLetterProps> = ({
   mascot,
-  recipientName = "Dearest",
+  recipientName = "Held",
   onNext,
 }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [customGreeting, setCustomGreeting] = useState(
-    recipientName ? `My ${recipientName},` : "My Dearest,",
+    recipientName ? `${recipientName},` : "Held,",
   );
   const [customClosing, setCustomClosing] = useState(
-    "With all my love, always.",
+    "Sincerely, the small dude from 7A",
   );
 
   const handleContinue = () => {
@@ -48,7 +48,7 @@ export const ScreenLetter: React.FC<ScreenLetterProps> = ({
         {/* Title */}
         <div className="relative inline-block mb-6">
           <h1 className="font-serif-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight text-[#442c38]">
-            {customGreeting}
+            Held
           </h1>
           <div className="mx-auto mt-4 h-px w-20 bg-rose-400/60" />
         </div>
@@ -61,28 +61,60 @@ export const ScreenLetter: React.FC<ScreenLetterProps> = ({
               className="float-left mr-3 text-5xl sm:text-6xl font-normal leading-none text-[#442c38] font-serif"
               style={{ fontFamily: "'Bodoni Moda', 'Playfair Display', serif" }}
             >
-              A
+              Y
             </span>
-            s I sit down to write this, I find myself smiling at the thought of
-            all the incredible moments we've shared. Another year has passed,
-            bringing with it a tapestry of new memories, laughter, and even
-            those quiet, comfortable silences that only we understand. You have
-            this remarkable way of making ordinary days feel extraordinary.
+            ou know how much I suck at writting letters but just bare with me on
+            this. I want to say so much but I don't even know where to start. I
+            just want you to know that you mean so much to me you have no idea.
+            I thank God for lining up everything back in 7th grade so that we
+            would sit on consequtive rows. To tell you the truth I don't know
+            what I would even be if you were never there. So thank you for just
+            being. And thank you for making me start anime. Thank you for being
+            there at my lowest and highest. You were the only one that was with
+            me even when I pushed everyone away. I pushed you away but you were
+            still there so tysmmmmmmm 🥹🥹🥹🥹🥹
           </p>
-
           <p>
-            I want you to know how deeply you are loved to me, not just today on
-            your special day, but every single day. Your kindness, your
-            resilience, and that brilliant spark in your eyes when you talk
-            about the things you love—these are the things I cherish most about
-            you. You are a rare and beautiful soul.
-          </p>
-
+            I want you to know I love everything about you. Your silly faces.
+            Your funny jokes. The way you laugh and smile. Your random requests
+            (that's the last time I'm ever singing sophia ), our awkward hugs
+            every time we hang out, the way you used to say "oh well", the love
+            you have for others, your hundred crushes you never ask out, and
+            most importantly your motherly like care. Remember when I had you
+            saved as Mamacita, it was because of that. I love that when I do
+            good, bad, dumb things you smh bare with me and God knows how
+            unbareable I can be. You genuenily saved my life you have no idea.
+            And you're so fucking fine I have no idea how we're even friends. In
+            every other universe, I would never have talked to you but I know
+            all the other mes wish that they lived on this one. And I love how
+            you remind me of memories even when I have completely forgotten
+            them. I love your pizza. I love your voice smmmmm. I love your eyes.
+            I love that you play the violin (even though you've only ever once
+            let me listen to it 😭😭). I love that you drew me with cat ears. I
+            love your unhealthy K-pop idols obsession. I love that we have such
+            different tastes in things we like. I think I might get stuck on
+            this section forever so Ima just move on.
+          </p>{" "}
+          <span className="italic align-center flex justify-center">
+            Ilysm held 🫶
+          </span>
           <p>
-            May this coming year bring you everything your heart desires. May it
-            be filled with adventures, success, and above all, joy. I promise to
-            be right by your side, cheering you on and holding your hand through
-            it all.
+            I really wanted to give you something good but this was very rushed
+            because as you know I was never the insightful type. I got you a
+            silver braclet because you once told me you liked silver and grey.
+            You even wanted to die your hair that. But then I remembered after I
+            have bought it that you like all the colors 😭😭. And I got you the
+            fake ass 5 leaf necklace because there were only crosses and I
+            didn't think you had a vancleaf (or whatever it's called) keza I saw
+            it on the picture we took together, I'm so sorrrryyyyyyy. I made a
+            bunch or crampled papers because I'm fkin stupid and don't know what
+            else to give you. I'm not really good at giving or recieving gifts
+            so I'm sorry. And I know you like snickers but I can only afford one
+            rn 😭😭😭. But jus please give me another chance and next year I
+            promise I'll give you something good. Oh and sorry I had to
+            shamefully use AI to make the website, cuz I didn't have time and I
+            couldn't make something this good in a million years. Just think of
+            it as a photo template you send as birthday cards.
           </p>
         </div>
 

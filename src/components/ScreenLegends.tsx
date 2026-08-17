@@ -71,8 +71,18 @@ const LEGENDS: LegendItem[] = [
     year: "2009",
     occupation: "Student",
     description: "Plays volleyball in cathedral",
-    imageUrl: "assets/yeras.jpg",
+    imageUrl: " /yeras.jpg",
     quote: '"You know yeras "',
+  },
+  {
+    id: "batz",
+    name: "BATZ",
+    year: "2007",
+    occupation: "uni Student/cool dude",
+    description:
+      "Met him at the deathnote event, he's cool asf and you share birthdays",
+    imageUrl: " /batz.jpg",
+    quote: '"@backwards_kid on tktk "',
   },
 ];
 

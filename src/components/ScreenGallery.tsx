@@ -199,16 +199,36 @@ export const ScreenGallery: React.FC<ScreenGalleryProps> = ({
                   <h3 className="font-serif-display text-2xl font-medium text-stone-900">
                     Memories & Moments
                   </h3>
-                  <div className="grid grid-cols-4 gap-3">
+                  <div className="flex flex-col justify-between gap-2">
                     <img
-                      src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80"
+                      src=" /held-1.jpg"
                       alt="Moment 1"
-                      className="rounded-lg object-cover h-48 w-full border border-stone-200"
+                      className="rounded-lg object-cover  w-full border border-stone-200"
                     />
                     <img
-                      src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
-                      alt="Moment 2"
-                      className="rounded-lg object-cover h-48 w-full border border-stone-200"
+                      src=" /held-2.jpg"
+                      alt="Moment 1"
+                      className="rounded-lg object-cover w-full border border-stone-200"
+                    />
+                    <img
+                      src=" /held-3.jpg"
+                      alt="Moment 1"
+                      className="rounded-lg object-cover w-full border border-stone-200"
+                    />
+                    <img
+                      src=" /held-4.jpg"
+                      alt="Moment 1"
+                      className="rounded-lg object-cover w-full border border-stone-200"
+                    />
+                    <img
+                      src=" /held-5.jpg"
+                      alt="Moment 1"
+                      className="rounded-lg object-cover  w-full border border-stone-200"
+                    />
+                    <img
+                      src=" /held-6.jpg"
+                      alt="Moment 1"
+                      className="rounded-lg object-cover w-full border border-stone-200"
                     />
                   </div>
                   <p className="text-sm text-stone-600 font-serif italic text-center pt-2">
